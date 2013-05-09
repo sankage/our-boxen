@@ -26,7 +26,6 @@ and detect most of these and tell you anyway):
 * Boxen __may not__ play nice with an existing rbenv install.
 * Boxen __may not__ play nice with an existing chruby install.
 * Boxen __may not__ play nice with an existing homebrew install.
-* Boxen __may not__ play nice with an existing nvm install.
 * Boxen __recommends__ installing the full Xcode.
 
 ### Dependencies
@@ -106,12 +105,12 @@ This template project provides the following by default:
 * Git
 * Hub
 * DNSMasq w/ .dev resolver for localhost
-* NVM
 * RBenv
 * Full Disk Encryption requirement
 * NodeJS 0.4
 * NodeJS 0.6
 * NodeJS 0.8
+* NodeJS 0.10
 * Ruby 1.8.7
 * Ruby 1.9.2
 * Ruby 1.9.3
@@ -238,7 +237,7 @@ will be working in).
 
 ## Binary packages
 
-We support binary packaging for everything in Homebrew, RBEnv, and NVM.
+We support binary packaging for everything in Homebrew, RBEnv, and nodenv.
 See `config/boxen.rb` for the environment variables to define.
 
 ## Sharing Boxen Modules
